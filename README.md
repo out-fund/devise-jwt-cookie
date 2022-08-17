@@ -7,7 +7,7 @@
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'devise-jwt-cookie', '~> 0.5.5'
+gem 'devise-jwt-cookie', '~> 0.5.6'
 ```
 
 And then execute:
@@ -47,15 +47,13 @@ Devise.setup do |config|
 end
 ```
 
-`jwt_cookie.domain` will default to `localhost:3000'.
-
 #### name
 
 The name of the cookie. Defaults to `access_token`.
 
 #### domain
 
-The domain the cookie should be issued to. Defaults to `localhost:3000`.
+The domain the cookie should be issued to. You can set this to your domain.
 
 #### secure
 
